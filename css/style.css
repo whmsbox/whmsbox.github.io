@@ -58,7 +58,7 @@ font-size:14px;
 
 /* =============================== header ===================================== */
 .header{
-background: url(../img/bghead.jpg) no-repeat center fixed;
+background: url(../icon/bg2.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -237,6 +237,7 @@ padding:120px 0;
 background:#f2f2f2;
 }
 /* ================================================= about us ================================================== */
+
 
 .about-content p{
 font-size:14px;
