@@ -331,6 +331,8 @@ list-style: none;
 display: table;
 }
 
+
+
 ul#filterOptions li{
  float:left;
 margin-right: -1px;
@@ -422,7 +424,7 @@ max-height:48px;
  padding:15px;
  margin:0;
 text-align:center;
-font-size:18px;
+font-size:14px;
 }
 .folio-caption i{
 position: absolute;
