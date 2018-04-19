@@ -142,10 +142,13 @@ padding:14px 24px;
 .main-caption .btn-clear:hover{
 border-color:#fff;
 }
-.logo img{
-	
--ms-transform: scale(0.5, 0.5);
--webkit-transform: scale(0.5, 0.5);
+@media only screen and (max-width: 767px) {
+.responsive .logo a, .responsive .logo img {
+margin: 0 auto;
+max-width: 100%;
+
+top: 5px;
+}
 }
 /* ==============================================================  Menu ======================================================= */
 .main-nav{
