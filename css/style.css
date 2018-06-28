@@ -397,18 +397,18 @@ display:block;
 
 -webkit-transform: scale(1,1);
     -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
+    -webkit-transition-duration: 150ms;
     -moz-transform: scale(1,1);
     -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
+    -moz-transition-duration: 150ms;
 }
 .thumb-img:hover img, .link-attr:hover .thumb-img > img{
  -webkit-transform: scale(1.05,1.07);
     -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
+    -webkit-transition-duration: 150ms;
     -moz-transform: scale(1.05,1.07);
     -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
+    -moz-transition-duration: 150ms;
 }
 .thumb-img:hover img{
  opacity:0.7;
@@ -480,10 +480,10 @@ font-size:14px;
 border-radius: 0px;
 }
 .link-attr{
-width:60%;
+width:100%;
 position:absolute;
 top:50%;
-left:50%;
+left:60%;
 transform: translate(-50%, -50%);
 -webkit-transform: translate(-50%, -50%);
 -moz-transform: translate(-50%, -50%);
@@ -505,20 +505,20 @@ height: 48px;
 background: transparent;
 padding: 10px 12px;
 color:#fff;
-animation-duration: 750ms;
-  -webkit-animation-duration: 750ms;
-  -moz-animation-duration: 750ms;
-  -ms-animation-duration: 750ms;
-  -o-animation-duration: 750ms;
+animation-duration: 300ms;
+  -webkit-animation-duration: 300ms;
+  -moz-animation-duration: 300ms;
+  -ms-animation-duration: 300ms;
+  -o-animation-duration: 300ms;
         animation-iteration-count: backwards;
         -webkit-animation-iteration-count: backwards;
         -moz-animation-iteration-count: backwards;
         -ms-animation-iteration-count: backwards;
         -o-animation-iteration-count: backwards;
-			-webkit-animation-delay: 500ms;
-			-moz-animation-delay: 500ms;
-			-ms-animation-delay: 500ms;
-			-o-animation-delay: 500ms;
+			-webkit-animation-delay: 150ms;
+			-moz-animation-delay: 150ms;
+			-ms-animation-delay: 150ms;
+			-o-animation-delay: 150ms;
 display:none;
 }
 .link-search{
