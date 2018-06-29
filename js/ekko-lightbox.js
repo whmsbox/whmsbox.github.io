@@ -12,6 +12,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
 
   $ = jQuery;
 
+
   EkkoLightbox = function(element, options) {
     var content, footer, header,
       _this = this;
@@ -314,6 +315,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
     onShown: function() {},
     onHide: function() {},
     onHidden: function() {}
+
   };
 
 }).call(this);
